@@ -1,0 +1,16 @@
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  margin: 24px 0;
+}
+
+.card {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 1px 1px 4px 6px rgba(255, 255, 0, 0.4);
+}
