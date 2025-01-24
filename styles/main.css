@@ -1,5 +1,6 @@
 @import "components/banner.css";
 @import "components/buttons.css";
+@import "components/cards.css";
 
 body {
   margin: 0;
@@ -7,4 +8,9 @@ body {
 
 a {
   text-decoration: none;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
 }
